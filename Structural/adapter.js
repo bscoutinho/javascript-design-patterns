@@ -51,3 +51,11 @@ class CalcAdapter {
         }
     }
 }
+
+
+// Results here
+let calcAdd = new CalcAdapter
+let resultAdd = calcAdd.operations(1, 2, 'add')
+let resultSub = calcAdd.operations(2, 1, 'sub')
+console.log(resultAdd)
+console.log(resultSub)
